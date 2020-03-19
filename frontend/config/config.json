@@ -1,0 +1,32 @@
+{
+    "openweathermap": {
+        "api_key": "5b73dc524983a29af8e8c280de78affa",
+        "api_method": "GET",
+        "api_host": "api.openweathermap.org",
+        "api_port": "",
+        "api_path_weather": "/data/2.5/weather",
+        "api_path_forecast": "/data/2.5/forecast"
+    },
+    "ipinfo": {
+        "token": "03926aba3fe82f",
+        "api_method": "GET",
+        "api_host": "ipinfo.io",
+        "api_port": "",
+        "api_path": ""
+    },
+    "unsplash": {
+        "access_key": "d99714ec6f1544fd1e211f816c61c37087fadece419f8c895f1d888b00f33844",
+        "secret_key": "0745ead2b63a673411eb54724536bf6d0841468d575c00104c86bbb814e918b6",
+        "api_method": "GET",
+        "api_host": "api.unsplash.com",
+        "api_port": "",
+        "api_path": "/photos/random"
+    },
+    "google": {
+        "api_key": "AIzaSyB_B8hGJyrbd4p85VRHaZxYOOaTBTlJqwU"
+    },
+    "weather_imgs": {
+        "path": "./../../src/weather-pics/"
+    }
+
+}

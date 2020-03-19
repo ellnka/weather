@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+}
+
+.container-fluid {
+  background: no-repeat center center fixed;
+  background-color: #333333;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+}

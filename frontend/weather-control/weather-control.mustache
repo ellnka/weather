@@ -1,0 +1,40 @@
+<div class="row navbar weather-control">
+    <div class="col-2">
+        <div class="d-flex flex-row">
+
+            <div class="navbar-brand p-2">
+                <button type="button" class="btn btn-secondary refresh-bg" alt="Refresh background"></button>
+            </div>
+
+            <div class="p-2 input-group select-wrapper">
+                <select name="languages" id="languages" data-style="btn-primary"
+                    class="custom-select custom-select-lg form-control select-language"
+                    placeholder="Available Languages">
+                    <option class="option-language" value="ru">RU</option>
+                    <option class="option-language" value="en">EN</option>
+                    <option class="option-language" value="uk">UA</option>
+                </select>
+            </div>
+
+            <div class="p-2 btn-group degree" role="group" aria-label="Tempature degree">
+                <button type="button" value="c" class="btn btn-secondary active">°C</button>
+                <button type="button" value="f" class="btn btn-secondary">°F</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-md-auto">
+        <form class="form-inline  search">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control search-input" placeholder="{{search_input}}"
+                    aria-label="Search city or ZIP" aria-describedby="button-addon2">
+             <!--   <div class="input-group-append">
+                    <button class="btn btn-outline-secondary search-button" type="button"
+                        id="button-addon2">{{search_button}}</button>
+                </div>
+                -->
+            </div>
+        </form>
+    </div>
+</div>

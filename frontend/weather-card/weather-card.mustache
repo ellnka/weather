@@ -1,0 +1,100 @@
+<div class="row">
+    <div class="col-6">
+        <div class="card w-50 weather-card">
+            <div class="ml-3">
+                <div class="title">
+                    <h5 class="location"> {{location}} </h5>
+                    <h6 class="date"> {{date}} </h6>
+                </div>
+
+                <div class="d-flex flex-row bd-highlight card-body weather-today">
+                    <div class="p-2 bd-highlight text-right">
+                        <h5 class="temperature"> {{temperature}} </h5>
+                    </div>
+                    <div class="p-md-2 bd-highlight">
+                        <div class="d-flex align-items-start flex-column bd-highlight">
+                            <div class="p-md-2 bd-highlight">
+                                <figure class="figure mr-md-20 weather-pic"> <img src="{{pic}}"
+                                        class="img-fluid float-right d-none" /> </figure>
+                            </div>
+
+                            <div class="p-md-2 bd-highlight weather-description">
+                                <h5 class="weather_data_1"> {{}} </h5>
+                                <h5 class="weather_data_2"> {{}} </h5>
+                                <h5 class="weather_data_3"> {{}} </h5>
+                                <h5 class="weather_data_4"> {{}} </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weather-days">
+                <div class="d-flex flex-row bd-highlight">
+                    <div class="p-2 bd-highlight">
+                        <div class="d-flex align-items-start flex-column bd-highlight">
+                            <div class="p-2 bd-highlight">
+                                <h5 class="day-title day1_day">{{}}</h5>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="p-2">
+                                    <h5 class="day-temp day1_temp">{{}}</h5>
+                                </div>
+                                <figure class="p-2 day-pic">
+                                    <img src="{{pic}}" class="img-fluid float-right day1_pic" />
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <div class="d-flex align-items-start flex-column bd-highlight">
+                            <div class="p-2 bd-highlight">
+                                <h5 class="day-title day2_day">{{}}</h5>
+                            </div>
+                            <div class="p-2 bd-highlight clearfix">
+                                <div class="float-left">
+                                    <h5 class="day-temp day2_temp">{{}}</h5>
+                                </div>
+                                <figure class="float-right day-pic">
+                                    <img src="{{pic}}" class="img-fluid float-right day2_pic" />
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <div class="d-flex align-items-start flex-column bd-highlight">
+                            <div class="p-2 bd-highlight">
+                                <h5 class="day-title day3_day">{{}}</h5>
+                            </div>
+                            <div class="p-2 bd-highlight clearfix">
+                                <div class="float-left">
+                                    <h5 class="day-temp day3_temp">{{}}</h5>
+                                </div>
+                                <figure class="float-right day-pic">
+                                    <img src="{{}}" class="img-fluid float-right day3_pic" />
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="col-xs-4">
+
+        <div class="card ml-4 ml-md-10 card-map">
+            <div class="card-body text-center">
+                <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+                    <section class="map">
+                        <div class="map_wrap">
+                            <div class="=map_map js-map"> </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
