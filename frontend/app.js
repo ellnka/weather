@@ -38,7 +38,7 @@ export default class WeatherApp {
 
   init() {
     this.requestIpInfo();
-    this.requestUnsplash("winter");
+    this.requestUnsplash("spring");
   }
 
   initGoogle() {
