@@ -1,13 +1,16 @@
 {
-  "env": {
-    "browser": true,
-    "node": true
-  },
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module"
-  },
-  "rules": {
-    "semi": 2
-  }
+   "items":[
+      {
+         "id":"31da55f8-c55a-4167-9d16-77da032dca27",
+         "body":"Hi! test message",
+         "translatedBody":null,
+         "addedAt":"2020-03-29T18:43:36.82",
+         "senderId":6102,
+         "senderName":"iolena",
+         "recipientId":5771,
+         "viewed":false
+      }
+   ],
+   "totalCount":1,
+   "error":null
 }

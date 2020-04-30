@@ -1,4 +1,4 @@
-export default class Services {
+export default class getOpenWeatherAPI {
 
     static fetch(url) {
         //url = "http://localhost:8080/";
